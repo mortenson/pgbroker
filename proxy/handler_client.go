@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	"github.com/rueian/pgbroker/message"
+	"github.com/mortenson/pgbroker/message"
 )
 
 type HandleBind func(md *Ctx, msg *message.Bind) (*message.Bind, error)

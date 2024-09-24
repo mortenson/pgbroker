@@ -11,8 +11,8 @@ import (
 	"runtime/pprof"
 	"syscall"
 
-	"github.com/rueian/pgbroker/backend"
-	"github.com/rueian/pgbroker/proxy"
+	"github.com/mortenson/pgbroker/backend"
+	"github.com/mortenson/pgbroker/proxy"
 )
 
 func main() {
